@@ -1,5 +1,16 @@
 <!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><meta name='theme-color' content='#17110d'><title>료칸 | RYOKAN GUILD</title><meta name='description' content='료칸 길드 공식 안내 — 규칙, 경고 및 추방, 경고 차감, 음성·채팅 채널 안내'><link rel='stylesheet' href='assets/style.css'></head><body>
-<div class='noise'></div><header class='nav'><a class='brand' href='#top'><span>♨</span><b>료칸</b><small>RYOKAN</small></a><nav><a href='#rules'>규칙</a><a href='#sanctions'>제재</a><a href='#discount'>경고 차감</a><a href='#channels'>채널</a></nav><button id='menu'>☰</button></header>
+<div class='noise'></div>
+<div class='cinema-gate' id='cinemaGate' aria-label='료칸 시네마틱 입장 화면'>
+  <div class='cinema-sky'><i class='star s1'></i><i class='star s2'></i><i class='star s3'></i><i class='star s4'></i><i class='star s5'></i></div>
+  <div class='cinema-cloud c1'></div><div class='cinema-cloud c2'></div>
+  <div class='cinema-moon'><span></span></div>
+  <div class='cinema-ryokan'><div class='roof r1'></div><div class='roof r2'></div><div class='house'><i></i><i></i><i></i><i></i></div></div>
+  <div class='cinema-bamboo left'><i></i><i></i><i></i><i></i></div><div class='cinema-bamboo right'><i></i><i></i><i></i></div>
+  <div class='lantern-row'><i></i><i></i><i></i><i></i><i></i></div>
+  <div class='cinema-vignette'></div>
+  <div class='cinema-title'><small>WELCOME TO THE NIGHT</small><div class='cinema-kanji'>旅館</div><h1>RYOKAN</h1><p>달빛 아래, 잠시 머물다 가세요.</p><div class='cinema-actions'><button id='cinemaEnter'>음악과 함께 문 열기</button><button id='cinemaSilent'>조용히 들어가기</button></div><em>松原みき · 真夜中のドア〜Stay With Me</em></div>
+  <div class='cinema-doors'><span></span><span></span></div>
+</div><header class='nav'><a class='brand' href='#top'><span>♨</span><b>료칸</b><small>RYOKAN</small></a><nav><a href='#rules'>규칙</a><a href='#sanctions'>제재</a><a href='#discount'>경고 차감</a><a href='#channels'>채널</a></nav><button id='menu'>☰</button></header>
 <main id='top'>
 <section class='hero'><div class='moon'></div><div class='bamboo b1'></div><div class='bamboo b2'></div><div class='hero-inner reveal'><p class='eyebrow'>TR · RYOKAN GUILD OFFICIAL GUIDE</p><div class='seal'>旅館</div><h1>머무는 동안,<br><em>서로에게 따뜻한 사람.</em></h1><p class='lead'>료칸은 실력보다 사람을 먼저 생각합니다.<br>함께 웃고, 함께 즐기기 위해 필요한 가장 기본적인 약속을 안내합니다.</p><div class='hero-actions'><a class='primary' href='#rules'>공지 확인하기 <span>↓</span></a><a class='ghost' href='#channels'>공간 둘러보기</a></div><div class='quick'><div><b>2회</b><span>경고 누적 시 추방</span></div><i></i><div><b>14일</b><span>무경고 활동 시 1회 차감</span></div><i></i><div><b>7일</b><span>사유 없는 장기 미접속 기준</span></div></div></div><div class='scroll'>SCROLL <span></span></div></section>
 <section class='intro reveal'><div><p class='kicker'>OUR MANNER</p><h2>제일 중요한 건<br><strong>기본적인 예의</strong>입니다.</h2></div><blockquote>“사람 대 사람으로 만나게 되는 만큼, 말하지 않아도 당연히 지켜야 할 예의는 지켜주세요. 서로를 위하는 마음이 료칸의 시작입니다.”</blockquote></section>
@@ -29,9 +40,9 @@
 
 <div class='bgm-player' id='bgmPlayer' aria-label='료칸 배경음악 플레이어'>
   <button class='bgm-main' id='bgmToggle' type='button' aria-label='배경음악 재생 또는 일시정지'><span id='bgmIcon'>▶</span></button>
-  <div class='bgm-info'><small>RYOKAN AMBIENCE</small><strong id='bgmStatus'>BGM 준비됨</strong><div class='bgm-progress'><span id='bgmProgress'></span></div></div>
+  <div class='bgm-info'><small>NOW PLAYING · RYOKAN NIGHT</small><strong id='bgmStatus'>真夜中のドア〜Stay With Me</strong><div class='bgm-progress'><span id='bgmProgress'></span></div></div>
   <button class='bgm-sound' id='bgmMute' type='button' aria-label='배경음악 음소거'>🔊</button>
   <input id='bgmVolume' class='bgm-volume' type='range' min='0' max='1' step='0.01' value='0.28' aria-label='배경음악 음량'>
 </div>
-<audio id='ryokanBgm' src='assets/audio/ryokan_bgm.mp3' preload='metadata' loop></audio>
+<audio id='ryokanBgm' src='assets/audio/stay-with-me.mp3' preload='auto' loop></audio>
 <footer><div><b>♨ RYOKAN</b><span>GUILD OFFICIAL GUIDE</span></div><p>공지 내용은 길드 운영에 따라 수정·추가될 수 있습니다.</p><small>Made for RYOKAN · 2026</small></footer><script src='assets/main.js'></script></body></html>
